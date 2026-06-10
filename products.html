@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Products — Cuan Dong Export</title>
+  <meta name="description" content="Browse our premium Indonesian agricultural commodities: Specialty Coffee, Processed Spices, Cocoa, and Palm Products for B2B international buyers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230D1B2A'/><text y='.9em' font-size='80' x='10'>🌿</text></svg>" />
+  <style>
+    .product-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; margin-bottom: 80px; }
+    .product-detail-grid.reverse { direction: rtl; }
+    .product-detail-grid.reverse > * { direction: ltr; }
+    .product-detail-img { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%); border-radius: var(--radius-lg); aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; font-size: 6rem; }
+    .product-detail-body {}
+    .spec-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    .spec-table tr { border-bottom: 1px solid var(--gray-300); }
+    .spec-table td { padding: 10px 0; font-size: 0.875rem; }
+    .spec-table td:first-child { color: var(--gray-500); font-weight: 500; width: 40%; }
+    .spec-table td:last-child { color: var(--charcoal); font-weight: 600; }
+    .variant-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 16px 0; }
+    .variant-card { background: var(--off-white); border: 1.5px solid var(--gray-300); border-radius: var(--radius); padding: 14px; text-align: center; transition: var(--transition); cursor: default; }
+    .variant-card:hover { border-color: var(--gold); background: rgba(212,175,55,0.05); }
+    .variant-emoji { font-size: 1.5rem; margin-bottom: 6px; }
+    .variant-name { font-size: 0.8rem; font-weight: 600; color: var(--navy); }
+    .variant-origin { font-size: 0.7rem; color: var(--gray-500); }
+    @media(max-width:768px) { .product-detail-grid { grid-template-columns: 1fr; gap: 32px; } .product-detail-grid.reverse { direction: ltr; } .variant-grid { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-mark">CD</div>
+      <div>
+        <span class="logo-text">Cuan Dong</span>
+        <span class="logo-sub">Export Indonesia</span>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="products.html" class="active">Our Products ▾</a>
+        <div class="dropdown-menu">
+          <a href="#coffee">☕ Specialty Coffee</a>
+          <a href="#spices">🌶 Processed Spices</a>
+          <a href="#cocoa">🍫 Cocoa & Derivatives</a>
+          <a href="#palm">🌴 Palm Products</a>
+        </div>
+      </div>
+      <a href="supply-chain.html">Supply Chain</a>
+      <a href="compliance.html">Compliance</a>
+      <a href="contact.html" class="btn btn-primary btn-sm" style="margin-left:8px">Request Quote</a>
+    </div>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Our Products</span>
+    </div>
+    <h1>Our Product Portfolio</h1>
+    <p>Premium Indonesian commodities, sourced directly, processed to international standards.</p>
+  </div>
+</section>
+
+<section class="section" style="background:var(--off-white);padding:32px 0">
+  <div class="container">
+    <div class="flex gap-16" style="flex-wrap:wrap">
+      <a href="#coffee" class="btn btn-navy btn-sm">☕ Coffee</a>
+      <a href="#spices" class="btn btn-navy btn-sm">🌶 Spices</a>
+      <a href="#cocoa" class="btn btn-navy btn-sm">🍫 Cocoa</a>
+      <a href="#palm" class="btn btn-navy btn-sm">🌴 Palm Products</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="coffee">
+  <div class="container">
+    <div class="product-detail-grid" data-reveal>
+      <div class="product-detail-img">☕</div>
+      <div class="product-detail-body">
+        <span class="section-label">Specialty Grade</span>
+        <h2>Arabica & Robusta Coffee</h2>
+        <p>Indonesia is the world's 4th largest coffee producer. We source single-origin beans from Aceh, Toraja, Flores, and Java — available as green bean, roasted whole bean, and ground.</p>
+        <table class="spec-table">
+          <tr><td>Minimum Order</td><td>1 Metric Ton (Green), 500 KG (Roasted)</td></tr>
+          <tr><td>Packaging</td><td>60 KG Jute/GrainPro bags or custom</td></tr>
+          <tr><td>Moisture</td><td>Max 12.5% (Green Bean)</td></tr>
+          <tr><td>Defect Rate</td><td>≤ 11 defects / 300g (Specialty Grade)</td></tr>
+          <tr><td>Incoterms</td><td>FOB, CIF, EXW</td></tr>
+          <tr><td>Port</td><td>Tanjung Priok (Jakarta) / Tanjung Perak</td></tr>
+        </table>
+        <div class="variant-grid">
+          <div class="variant-card"><div class="variant-emoji">🏔</div><div class="variant-name">Gayo Arabica</div><div class="variant-origin">Aceh</div></div>
+          <div class="variant-card"><div class="variant-emoji">🌋</div><div class="variant-name">Toraja Arabica</div><div class="variant-origin">Sulawesi</div></div>
+          <div class="variant-card"><div class="variant-emoji">🌺</div><div class="variant-name">Flores Bajawa</div><div class="variant-origin">NTT</div></div>
+          <div class="variant-card"><div class="variant-emoji">☕</div><div class="variant-name">Java Robusta</div><div class="variant-origin">East Java</div></div>
+          <div class="variant-card"><div class="variant-emoji">🌿</div><div class="variant-name">Lampung Robusta</div><div class="variant-origin">Lampung</div></div>
+          <div class="variant-card"><div class="variant-emoji">✨</div><div class="variant-name">Kintamani</div><div class="variant-origin">Bali</div></div>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
+          <a href="contact.html?product=coffee" class="btn btn-primary">Request Coffee Quote</a>
+          <a href="contact.html" class="btn btn-navy">Ask for Sample</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="product-detail-grid reverse" id="spices" data-reveal>
+      <div class="product-detail-img">🌶</div>
+      <div class="product-detail-body">
+        <span class="section-label">Processed</span>
+        <h2>Spices & Seasonings</h2>
+        <p>From the Spice Islands of Maluku to the highlands of Sumatra — we export Indonesia's finest spices in whole, cracked, and powdered form, vacuum-packed for maximum shelf life.</p>
+        <table class="spec-table">
+          <tr><td>Minimum Order</td><td>500 KG per SKU</td></tr>
+          <tr><td>Packaging</td><td>Vacuum PP bags / Kraft bags / Custom</td></tr>
+          <tr><td>Shelf Life</td><td>18–24 months (sealed)</td></tr>
+          <tr><td>Process</td><td>Sun-dried, steam-sterilized, sorted</td></tr>
+          <tr><td>Lab Test</td><td>Aflatoxin, pesticide, heavy metal</td></tr>
+          <tr><td>Incoterms</td><td>FOB, CIF, EXW</td></tr>
+        </table>
+        <div class="variant-grid">
+          <div class="variant-card"><div class="variant-emoji">⚫</div><div class="variant-name">Black Pepper</div><div class="variant-origin">Bangka</div></div>
+          <div class="variant-card"><div class="variant-emoji">⚪</div><div class="variant-name">White Pepper</div><div class="variant-origin">Bangka</div></div>
+          <div class="variant-card"><div class="variant-emoji">🌰</div><div class="variant-name">Nutmeg</div><div class="variant-origin">Maluku</div></div>
+          <div class="variant-card"><div class="variant-emoji">🌸</div><div class="variant-name">Cloves</div><div class="variant-origin">Maluku</div></div>
+          <div class="variant-card"><div class="variant-emoji">💚</div><div class="variant-name">Cardamom</div><div class="variant-origin">Java</div></div>
+          <div class="variant-card"><div class="variant-emoji">🟡</div><div class="variant-name">Turmeric</div><div class="variant-origin">Java</div></div>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
+          <a href="contact.html?product=spices" class="btn btn-primary">Request Spices Quote</a>
+          <a href="contact.html" class="btn btn-navy">Ask for Sample</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="product-detail-grid" id="cocoa" data-reveal>
+      <div class="product-detail-img">🍫</div>
+      <div class="product-detail-body">
+        <span class="section-label">Premium</span>
+        <h2>Cocoa Beans & Derivatives</h2>
+        <p>Indonesia ranks 3rd in global cocoa production. Our fermented cocoa beans from Sulawesi carry a rich, complex flavor profile ideal for premium chocolate manufacturing.</p>
+        <table class="spec-table">
+          <tr><td>Minimum Order</td><td>2 Metric Tons (Beans), 1 MT (Powder)</td></tr>
+          <tr><td>Fermentation</td><td>5–6 days, full fermentation</td></tr>
+          <tr><td>Moisture</td><td>Max 7.5%</td></tr>
+          <tr><td>Fat Content</td><td>48–52% (Cocoa Butter)</td></tr>
+          <tr><td>Certification</td><td>Rainforest Alliance available</td></tr>
+          <tr><td>Incoterms</td><td>FOB, CIF</td></tr>
+        </table>
+        <div class="product-meta" style="margin:16px 0">
+          <span class="badge badge-navy">Cocoa Beans</span>
+          <span class="badge badge-navy">Cocoa Powder</span>
+          <span class="badge badge-navy">Cocoa Butter</span>
+          <span class="badge badge-navy">Cocoa Paste</span>
+          <span class="badge badge-green">Rainforest Alliance</span>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
+          <a href="contact.html?product=cocoa" class="btn btn-primary">Request Cocoa Quote</a>
+          <a href="contact.html" class="btn btn-navy">Ask for Sample</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="product-detail-grid reverse" id="palm" data-reveal>
+      <div class="product-detail-img">🌴</div>
+      <div class="product-detail-body">
+        <span class="section-label">Industrial</span>
+        <h2>Palm Products</h2>
+        <p>Sustainable palm oil and derivatives sourced from RSPO-certified plantations. Crude Palm Oil (CPO), RBD Palm Oil, and Palm Kernel available for food and industrial use.</p>
+        <table class="spec-table">
+          <tr><td>Minimum Order</td><td>20 MT (CPO/RBD)</td></tr>
+          <tr><td>Packaging</td><td>ISO Tank / Flexitank / Drums</td></tr>
+          <tr><td>FFA</td><td>≤ 5% (CPO), ≤ 0.1% (RBD)</td></tr>
+          <tr><td>DOBI</td><td>≥ 2.5 (CPO)</td></tr>
+          <tr><td>Certification</td><td>RSPO, ISPO</td></tr>
+          <tr><td>Incoterms</td><td>FOB, CIF</td></tr>
+        </table>
+        <div class="product-meta" style="margin:16px 0">
+          <span class="badge badge-navy">Crude Palm Oil</span>
+          <span class="badge badge-navy">RBD Palm Oil</span>
+          <span class="badge badge-navy">Palm Kernel Oil</span>
+          <span class="badge badge-green">RSPO Certified</span>
+          <span class="badge badge-green">ISPO</span>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
+          <a href="contact.html?product=palm" class="btn btn-primary">Request Palm Quote</a>
+          <a href="contact.html" class="btn btn-navy">Ask for Sample</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--navy);padding:72px 0">
+  <div class="container text-center" data-reveal>
+    <h2 style="color:var(--white);margin-bottom:12px">Don't see what you need?</h2>
+    <p style="color:rgba(255,255,255,0.6);margin-bottom:28px">We source other Indonesian commodities on request. Tell us what you're looking for.</p>
+    <a href="contact.html" class="btn btn-primary btn-lg">Send Custom RFQ →</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p style="color:rgba(255,255,255,0.35);font-size:0.8rem">© 2024 Cuan Dong Export. All rights reserved.</p>
+      <div style="display:flex;gap:16px">
+        <a href="index.html" style="color:rgba(255,255,255,0.45);font-size:0.8rem">Home</a>
+        <a href="products.html" style="color:rgba(255,255,255,0.45);font-size:0.8rem">Products</a>
+        <a href="contact.html" style="color:rgba(255,255,255,0.45);font-size:0.8rem">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/6281234567890?text=Hi%2C%20I'm%20interested%20in%20your%20products." target="_blank" rel="noopener" class="btn-whatsapp" aria-label="WhatsApp">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  WhatsApp
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
