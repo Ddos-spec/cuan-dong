@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /output/
+Disallow: /.git/
 
 Sitemap: https://cuan-dong.com/sitemap.xml
