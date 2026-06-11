@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 88" role="img" aria-labelledby="title desc">
+  <title id="title">CU-ANDONG Trade Corporation</title>
+  <desc id="desc">Institutional seal and wordmark for CU-ANDONG Trade Corporation</desc>
+  <rect width="360" height="88" fill="none"/>
+  <g transform="translate(0 8)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#071833"/>
+    <rect x="7" y="7" width="58" height="58" rx="4" fill="none" stroke="#b58a3a" stroke-width="3"/>
+    <path d="M22 19h18c9 0 15 6 15 15v22H45V35c0-4-3-7-7-7h-6v28H22V19Z" fill="#f8f7f2"/>
+    <path d="M34 19h21v9H44v37H34V19Z" fill="#b58a3a"/>
+    <path d="M18 60h38" stroke="#f8f7f2" stroke-width="3" stroke-linecap="square"/>
+  </g>
+  <g transform="translate(92 17)">
+    <text x="0" y="25" fill="#071833" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="1.2">CU-ANDONG</text>
+    <path d="M0 36h210" stroke="#b58a3a" stroke-width="2"/>
+    <text x="0" y="57" fill="#5b6678" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3.1">TRADE CORPORATION</text>
+  </g>
+</svg>
